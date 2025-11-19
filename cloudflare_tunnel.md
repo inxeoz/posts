@@ -347,6 +347,25 @@ Status:
 systemctl status cloudflared
 ```
 
+uninstall:
+
+```bash
+sudo cloudflared service uninstall
+```
+
+uninstall:
+
+```bash
+sudo cloudflared service uninstall
+```
+```
+sudo rm /etc/cloudflared/config.yml
+```
+```
+sudo systemctl daemon-reload
+```
+
+
 ---
 
 ## **Option B — Custom per-tunnel service**
