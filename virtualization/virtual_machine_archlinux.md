@@ -7,7 +7,7 @@ tags: [kvm, archlinux, virtualization]
 ---
 
 
-# 1) Quick prerequisites — check your hardware
+# Quick prerequisites — check your hardware
 
 Confirm your CPU supports hardware virtualization (Intel VT-x or AMD-V):
 
@@ -171,10 +171,4 @@ sudo pacman -S virtualbox virtualbox-host-dkms linux-headers
 
 Then enable the systemd service that VirtualBox provides (if any), add your user to `vboxusers` group, and use the VirtualBox GUI. Note: VirtualBox and KVM/QEMU can conflict if they try to use the same low-level virtualization features — pick one primary hypervisor. (VirtualBox is fine for casual desktop use but KVM is higher performance for Linux hosts.)
 
----
 
-# 10) Next steps / recommended reading
-
-* ArchWiki KVM, QEMU and Libvirt pages are excellent references (they cover advanced networking, PCI passthrough, GPU passthrough, bridged networking, etc.). Start here: ArchWiki libvirt / QEMU / KVM / virt-manager pages. ([ArchWiki][1])
-
----

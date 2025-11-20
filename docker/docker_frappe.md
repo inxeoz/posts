@@ -6,12 +6,7 @@ permalink: posts/{{ title | slug }}/index.html
 tags: [docker, frappe, troubleshooting, backup]
 ---
 
-# 🧱 Fixing Common Frappe Docker Errors, Backing Up, and Restoring Databases
-
-**(With Arch Linux Examples)**
-*Author: Arhclinyux*
-
----
+# Fixing Common Frappe Docker Errors, Backing Up, and Restoring Databases
 
 ## 🧠 Introduction
 
@@ -341,23 +336,6 @@ docker exec -it frappe_docker-backend-1 rm /home/frappe/frappe_sites_backup.tar.
 
 ---
 
-## 🚀 Conclusion
 
-Using Docker for Frappe or ERPNext is powerful, but recovery requires understanding how containers share volumes.
-
-When things break:
-
-* **No CSS?** → Rebuild and clear caches
-* **DB errors?** → Match passwords between MySQL and site config
-* **Missing sites?** → Restore your `sites/` directory
-
-With these steps, you can confidently:
-
-* Back up data
-* Rebuild cleanly
-* Restore and recover
-* Fix visual or backend issues
-
-Your ERPNext system is now fully restorable — and production-ready — on any Arch Linux host. 🎉
 
 ---

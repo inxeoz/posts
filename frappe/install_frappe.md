@@ -1,15 +1,6 @@
 
 
-------
-
-# 🧩 How to Install Frappe Bench on Arch Linux (2025 Guide)
-
-The **Frappe Framework** is a powerful full-stack web framework used to build real-time apps like **ERPNext**, **Frappe HR**, and custom business systems.
- Although Arch Linux is not officially supported, Frappe works extremely well once the correct dependencies are installed—especially since Redis has been replaced by **Valkey**, and Arch does not include cron by default.
-
-This article provides a complete, Arch-specific installation guide with all required fixes.
-
-------
+# How to Install Frappe Bench on Arch Linux
 
 # 📦 1. Install System Dependencies
 

@@ -8,8 +8,6 @@ tags: [frappe, database, restoration]
 
 # How to Restore frappe_db_backup_utf8.sql
 
-This guide provides step-by-step instructions to restore the Frappe ERPNext database from the backup file `frappe_db_backup_utf8.sql`. This backup is from a Frappe 15.72.4 / ERPNext 15.67.0 installation with additional apps.
-
 ## Prerequisites
 - Ubuntu/Debian system with Python 3.10+ and Node.js installed.
 - MariaDB/MySQL installed and configured.
@@ -146,10 +144,4 @@ bench start
 - **Import Errors**: Check MySQL error logs for specific issues.
 - **Site Not Loading**: Run `bench doctor` to diagnose issues.
 
-## Post-Restoration Tasks
-- Update user passwords if necessary.
-- Reconfigure email settings, API keys, etc.
-- Test integrations and customizations.
-- Run `bench --site _5e5899d8398b5f7b backup` to create a new backup.
 
-For more details, refer to the [Frappe Documentation](https://frappeframework.com/docs).

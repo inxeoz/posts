@@ -7,15 +7,7 @@ tags: [redis, frappe, troubleshooting]
 ---
 
 
-# 🚀 How to Fix Redis Connection Errors in Frappe / ERPNext
-
-Redis plays a critical role in the Frappe and ERPNext ecosystem — it powers caching, background jobs, and real-time updates. When Redis isn’t running or misconfigured, you’ll often encounter installation or runtime errors such as:
-
-```
-redis.exceptions.ConnectionError: Error 111 connecting to 127.0.0.1:13000. Connection refused.
-```
-
-This article explains why Redis errors occur and provides step-by-step solutions for both **bare-metal** and **Docker-based** Frappe setups.
+# How to Fix Redis Connection Errors in Frappe / ERPNext
 
 ---
 
@@ -241,17 +233,4 @@ This should complete without any connection errors.
 | Redis processes missing                   | Supervisor not installed or running | Install and restart Supervisor                                       |
 | Docker network issue                      | Containers not on same network      | Use `--network frappe-net` or Docker Compose                         |
 
----
 
-## 🧾 Conclusion
-
-Redis is the backbone of Frappe’s background job and caching system.
-Whenever you encounter “Connection refused” errors, it almost always points to:
-
-1. Redis not running
-2. Wrong Redis host configuration
-3. Missing or broken network connectivity
-
-By ensuring that all Redis services are up and properly linked in your `common_site_config.json`, you’ll restore stability to your ERPNext or Frappe deployment — and avoid frustrating install-time crashes.
-
----

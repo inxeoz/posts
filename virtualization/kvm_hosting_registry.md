@@ -7,16 +7,7 @@ tags: [kvm, virtualization, networking]
 ---
 
 
-Below is a clean, understandable **technical article** explaining:
 
-✔ How to work with VMs (using KVM + virt-manager)
-✔ How to create different VM networks (NAT, Isolated, Bridged)
-✔ How to host a local repository server
-✔ How to register VMs to it
-
-You can copy–paste this anywhere (blog, docs, notes).
-
----
 
 # 🧾 **Working with KVM Virtual Machines and Creating Networks (NAT, Isolated, Bridged) + Hosting a Local Repository Server**
 
@@ -297,13 +288,4 @@ Host serves `/var/www/html/rhel8/` → VM uses it as offline repo.
 
 ---
 
-# **8. Optional Enhancements**
 
-I can generate:
-
-📌 A diagram of your virtualization network
-📌 Automated scripts to create networks
-📌 A full PDF guide
-📌 A multi-VM learning lab setup
-
-Just tell me!
