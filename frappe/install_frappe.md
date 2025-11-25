@@ -71,8 +71,13 @@ sudo systemctl enable --now valkey
 Check that it’s running:
 
 ```bash
-systemctl status valkey
+sudo systemctl status valkey
+sudo ss -ltnp | grep valkey # checking on what ports the valkey(redis serves) serving
+
 ```
+
+> LISTEN 0      511             127.0.0.1:6379       0.0.0.0:*    users:(("valkey-server",pid=946,fd=8))
+> LISTEN 0      511                 [::1]:6379          [::]:*    users:(("valkey-server",pid=946,fd=9))
 
 ------
 
@@ -102,6 +107,8 @@ bench --version
 
 ------
 
+
+
 # 🏗️ 6. Initialize a New Bench
 
 Create your bench environment:
@@ -116,7 +123,37 @@ Enter it:
 cd mybench
 ```
 
-------
+
+
+# update the common site config to match redis server port 
+
+
+```bash
+…/prob/sites ❯ cat common_site_config.json
+{
+ "background_workers": 1,
+ "default_site": "frontend",
+ "file_watcher_port": 6787,
+ "frappe_user": "inxeoz",
+ "gunicorn_workers": 17,
+ "live_reload": true,
+ "rebase_on_pull": false,
+ "redis_cache": "redis://127.0.0.1:6379",
+ "redis_queue": "redis://127.0.0.1:6379",
+ "redis_socketio": "redis://127.0.0.1:6379",
+ "restart_supervisor_on_update": false,
+ "restart_systemd_on_update": false,
+ "serve_default_site": true,
+ "shallow_clone": true,
+ "socketio_port": 9000,
+ "use_redis_auth": false,
+ "webserver_port": 8000
+}
+
+…/prob/sites ❯
+```
+
+
 
 # 🏠 7. Create a New Frappe Site
 
