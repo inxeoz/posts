@@ -169,6 +169,18 @@ sudo systemctl enable --now cloudflared
 
 Cloudflare automatically uses `~/.cloudflared/config.yml`.
 
+### Or 
+```
+sudo mkdir -p /etc/cloudflared
+sudo cp ~/.cloudflared/config.yml /etc/cloudflared/
+sudo cp ~/.cloudflared/cert.pem /etc/cloudflared/
+sudo cp ~/.cloudflared/*.json /etc/cloudflared/
+sudo chmod 600 /etc/cloudflared/*   # cloudflared requires strict perms
+```
+```
+sudo cloudflared service install
+```
+
 #### Manage it:
 
 Start:
