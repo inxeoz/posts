@@ -1,5 +1,11 @@
 
 ---
+title: SSH to Virtual Machine via Port Forwarding and Bridge Networking
+date: 2026-01-13T17:58:05+05:30
+description: Guide for connecting to virtual machines via SSH using port forwarding and bridge networking on Linux with KVM/QEMU
+permalink: posts/{{ title | slug }}/index.html
+tags: [ssh, vm, kvm, virtualization, linux, networking]
+---
 
 ## Method 1: Port Forwarding (The "Workaround")
 

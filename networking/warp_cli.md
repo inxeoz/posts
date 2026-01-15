@@ -1,5 +1,11 @@
 
 ---
+title: Cloudflare WARP CLI Split-Tunneling Guide
+date: 2026-01-13T17:10:10+05:30
+description: Key notes and commands for Cloudflare WARP CLI split-tunneling behavior, verification, and routing configuration
+permalink: posts/{{ title | slug }}/index.html
+tags: [cloudflare, warp, vpn, networking, cli, split-tunnel]
+---
 
 # 📌 Cloudflare WARP (`warp-cli`) Split-Tunneling — Key Notes
 
