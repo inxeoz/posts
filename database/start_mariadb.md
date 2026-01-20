@@ -1,6 +1,6 @@
 ---
 title: Start MariaDB
-date: 2025-12-20T01:07:08+05:30
+date: 2026-01-09
 description: MariaDB Docker container configuration
 permalink: posts/{{ title | slug }}/index.html
 tags: [docker, mariadb, database]

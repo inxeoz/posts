@@ -1,6 +1,6 @@
 ---
 title: How to Safely Set Up Wildcard Domain Resolution on Linux
-date: 2025-12-20T01:07:08+05:30
+date: 2026-01-09
 description: Safe wildcard domain resolution setup using systemd-resolved and dnsmasq without breaking system DNS
 permalink: posts/{{ title | slug }}/index.html
 tags: [dns, wildcard, linux, systemd, dnsmasq]

@@ -1,6 +1,6 @@
 ---
 title: DNS Test
-date: 2025-12-20T01:08:12+05:30
+date: 2026-01-09
 description: Setting up local *.test DNS resolution without breaking system DNS
 permalink: posts/{{ title | slug }}/index.html
 tags: [dns, networking, systemd]

@@ -1,6 +1,6 @@
 ---
 title: Virtual Machine Arch Linux
-date: 2025-12-20T01:07:08+05:30
+date: 2026-01-09
 description: Complete Arch Linux KVM installation guide
 permalink: posts/{{ title | slug }}/index.html
 tags: [kvm, archlinux, virtualization]

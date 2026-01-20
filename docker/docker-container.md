@@ -1,6 +1,6 @@
 ---
 title: Docker Container
-date: 2025-12-20T01:07:08+05:30
+date: 2026-01-09
 description: Managing Docker containers like a pro with persistence and lifecycle management
 permalink: posts/{{ title | slug }}/index.html
 tags: [docker, containers, management, persistence]
