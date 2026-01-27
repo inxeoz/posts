@@ -1,6 +1,6 @@
 ---
 title: How To Restore
-date: '2026-01-23'
+date: '2026-01-27'
 description: Complete Frappe database restoration guide
 permalink: posts/{{ title | slug }}/index.html
 tags:

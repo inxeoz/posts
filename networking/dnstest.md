@@ -1,6 +1,6 @@
 ---
 title: DNS Test
-date: '2026-01-23'
+date: '2026-01-27'
 description: Setting up local *.test DNS resolution without breaking system DNS
 permalink: posts/{{ title | slug }}/index.html
 tags:

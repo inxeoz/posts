@@ -1,6 +1,6 @@
 ---
 title: Fixing ERPNext / Frappe Error
-date: '2026-01-23'
+date: '2026-01-27'
 description: '* **OS**: RHEL (private / offline)'
 permalink: posts/{{ title | slug }}/index.html
 tags:
@@ -16,8 +16,6 @@ tags:
 categories:
 - frappe
 ---
-
-
 
 ---
 title: Fixing ERPNext Frappe Database Access Denied Error

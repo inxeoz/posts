@@ -1,6 +1,6 @@
 ---
 title: Connecting to Array Networks VPN from Linux
-date: '2026-01-23'
+date: '2026-01-27'
 description: Policy-compliant method to access Array Networks SSL VPN from Linux using
   Android MotionPro and SOCKS proxy
 permalink: posts/{{ title | slug }}/index.html

@@ -1,6 +1,6 @@
 ---
 title: "\U0001F4D8 Complete Guide: Full Backup & Restore in Frappe / ERPNext (Production-Ready)"
-date: '2026-01-23'
+date: '2026-01-27'
 description: 'This article explains:'
 permalink: posts/{{ title | slug }}/index.html
 tags:
@@ -15,8 +15,6 @@ tags:
 categories:
 - frappe
 ---
-
-
 
 ---
 title: Complete Guide Full Backup & Restore in Frappe ERPNext

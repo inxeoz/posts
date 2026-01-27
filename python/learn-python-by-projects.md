@@ -1,6 +1,6 @@
 ---
 title: Learn Python By Projects
-date: '2026-01-23'
+date: '2026-01-27'
 description: Learn Python through hands-on projects from beginner to advanced
 permalink: posts/{{ title | slug }}/index.html
 tags:

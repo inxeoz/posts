@@ -1,6 +1,6 @@
 ---
 title: Fix Redis In Common Site
-date: '2026-01-23'
+date: '2026-01-27'
 description: Redis configuration for Frappe
 permalink: posts/{{ title | slug }}/index.html
 tags:

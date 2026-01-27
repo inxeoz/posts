@@ -1,6 +1,6 @@
 ---
 title: Running Frappe / ERPNext Docker Deployments Fully Offline
-date: '2026-01-23'
+date: '2026-01-27'
 description: This article explains **how to deploy Docker applications in an offline
   / air-gapped environment**, using **Frappe / ERPNext** as a real example.
 permalink: posts/{{ title | slug }}/index.html
@@ -17,7 +17,6 @@ tags:
 categories:
 - frappe
 ---
-
 
 ---
 title: Running Frappe ERPNext Docker Deployments Fully Offline

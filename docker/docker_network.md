@@ -1,6 +1,6 @@
 ---
 title: Docker Network
-date: '2026-01-23'
+date: '2026-01-27'
 description: Docker networking fundamentals
 permalink: posts/{{ title | slug }}/index.html
 tags:

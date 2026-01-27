@@ -1,7 +1,7 @@
 ---
 title: "\U0001F680 Deploying ERPNext (Frappe) with Docker in an Offline / Air-Gapped\
   \ Environment"
-date: '2026-01-23'
+date: '2026-01-27'
 description: '**From Local Setup to Server Deployment (Complete Guide)**'
 permalink: posts/{{ title | slug }}/index.html
 tags:
@@ -23,7 +23,6 @@ tags:
 categories:
 - frappe
 ---
-
 
 ---
 title: Deploying ERPNext Frappe with Docker in Offline Air-Gapped Environment

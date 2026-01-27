@@ -1,6 +1,6 @@
 ---
 title: Creating a New MariaDB Container for a Frappe Site
-date: '2026-01-23'
+date: '2026-01-27'
 description: Guide for attaching a new Frappe site to a separate MariaDB container
   with DB isolation
 permalink: posts/{{ title | slug }}/index.html

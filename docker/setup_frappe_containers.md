@@ -1,6 +1,6 @@
 ---
 title: Setup Frappe Containers
-date: '2026-01-23'
+date: '2026-01-27'
 description: Docker commands for Frappe setup
 permalink: posts/{{ title | slug }}/index.html
 tags:

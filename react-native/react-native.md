@@ -1,6 +1,6 @@
 ---
 title: React Native
-date: '2026-01-23'
+date: '2026-01-27'
 description: How to run React Native on Arch Linux and fix common errors
 permalink: posts/{{ title | slug }}/index.html
 tags:

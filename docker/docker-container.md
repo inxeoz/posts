@@ -1,6 +1,6 @@
 ---
 title: Docker Container
-date: '2026-01-23'
+date: '2026-01-27'
 description: Managing Docker containers like a pro with persistence and lifecycle
   management
 permalink: posts/{{ title | slug }}/index.html

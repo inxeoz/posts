@@ -1,6 +1,6 @@
 ---
 title: KVM and Hosting
-date: '2026-01-23'
+date: '2026-01-27'
 description: KVM networking and local repository setup
 permalink: posts/{{ title | slug }}/index.html
 tags:
@@ -8,7 +8,7 @@ tags:
 - virtualization
 - networking
 categories:
-- virtualization
+- virtualizati
 ---
 
 # 🧾 **Working with KVM Virtual Machines and Creating Networks (NAT, Isolated, Bridged) + Hosting a Local Repository Server**

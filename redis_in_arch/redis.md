@@ -1,6 +1,6 @@
 ---
 title: Redis
-date: '2026-01-23'
+date: '2026-01-27'
 description: Checking Valkey (Redis) port on Arch Linux
 permalink: posts/{{ title | slug }}/index.html
 tags:
@@ -8,7 +8,7 @@ tags:
 - valkey
 - archlinux
 categories:
-- redis_in_arch
+- redis_in_arc
 ---
 
 You can check which port **Valkey** is running on in several ways. Here are the easiest methods:

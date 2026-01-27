@@ -1,6 +1,6 @@
 ---
 title: Docker Self
-date: '2026-01-23'
+date: '2026-01-27'
 description: Advanced Docker system management
 permalink: posts/{{ title | slug }}/index.html
 tags:

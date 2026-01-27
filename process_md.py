@@ -78,7 +78,9 @@ def infer_metadata_from_content(content, filepath):
     # Get directory parts (excluding leading '.' if relative path)
     parts = [p for p in filepath_obj.parts if p != "." and p != ".."]
     if parts:
-        categories = [parts[0]]  # Use first directory as category
+        # Use first directory as category, limit to max 12 characters
+        category = parts[0][:12]
+        categories = [category]
 
     # Infer tags from content and filename
     tags = set()
@@ -221,10 +223,22 @@ def process_markdown_file(filepath):
             existing_header["date"] = git_date
             updated = True
 
-        # Add missing categories
-        if not existing_header.get("categories") and inferred_categories:
+        # Add missing categories or truncate existing ones exceeding 12 chars
+        existing_cats = existing_header.get("categories")
+        if not existing_cats and inferred_categories:
             existing_header["categories"] = inferred_categories
             updated = True
+        elif existing_cats and inferred_categories:
+            # Check if any existing category exceeds 12 characters
+            new_cats = []
+            for cat in existing_cats:
+                if len(cat) > 12:
+                    new_cats.append(cat[:12])
+                    updated = True
+                else:
+                    new_cats.append(cat)
+            if updated:
+                existing_header["categories"] = new_cats
 
         if updated:
             # Recreate header with updated values

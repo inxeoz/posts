@@ -10,7 +10,7 @@ date: recent_updated_date
 description: infer from content
 permalink: posts/{{ title | slug }}/index.html
 tags: [tag1, tag2, tag2] 
-categories: [cat1, cat2  , cat3]
+categories: cat_name
 ---
 ```
 3. infer tags, description , title from content md file for which details will being update
@@ -18,3 +18,7 @@ categories: [cat1, cat2  , cat3]
 4. if md file has header section then update date to update_date
 
 5. if header missing category value then add (infer from content)
+
+6. use max 12 character for category name
+
+7. use parent folder name as category name of markdown content
