@@ -1,19 +1,3 @@
----
-title: CI/CD for Frappe Bench using Jenkins (Offline / Air-Gapped Setup)
-date: '2026-01-27'
-description: '> This guide explains how to implement **safe CI/CD with rollback**
-  for a **Frappe Bench** application using **Docker** and **Jenkins**, when the **pr...'
-permalink: posts/{{ title | slug }}/index.html
-tags:
-- arch
-- automation
-- backup
-- bash
-- database
-categories:
-- frappe
----
-
 # CI/CD for Frappe Bench using Jenkins (Offline / Air-Gapped Setup)
 
 > This guide explains how to implement **safe CI/CD with rollback** for a **Frappe Bench** application using **Docker** and **Jenkins**, when the **production server has NO internet access**.

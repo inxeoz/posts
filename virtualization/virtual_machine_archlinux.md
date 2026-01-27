@@ -1,16 +1,3 @@
----
-title: Virtual Machine Arch Linux
-date: '2026-01-27'
-description: Complete Arch Linux KVM installation guide
-permalink: posts/{{ title | slug }}/index.html
-tags:
-- kvm
-- archlinux
-- virtualization
-categories:
-- virtualizati
----
-
 # Quick prerequisites — check your hardware
 
 Confirm your CPU supports hardware virtualization (Intel VT-x or AMD-V):

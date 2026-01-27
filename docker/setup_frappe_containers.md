@@ -1,16 +1,3 @@
----
-title: Setup Frappe Containers
-date: '2026-01-27'
-description: Docker commands for Frappe setup
-permalink: posts/{{ title | slug }}/index.html
-tags:
-- docker
-- frappe
-- setup
-categories:
-- docker
----
-
 docker run -d
 --name mariadb
 --network frappe-net

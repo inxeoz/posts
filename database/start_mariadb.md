@@ -1,16 +1,3 @@
----
-title: Start MariaDB
-date: '2026-01-27'
-description: MariaDB Docker container configuration
-permalink: posts/{{ title | slug }}/index.html
-tags:
-- docker
-- mariadb
-- database
-categories:
-- database
----
-
 docker run -d \
   --name mariadb \
   --network frappe-net \

@@ -1,19 +1,3 @@
----
-title: Ssh In Vm
-date: '2026-01-27'
-description: If your VM is behind NAT (IP addresses like `10.0.2.15`), use Port Forwarding.
-  This maps a port on your host (e.g., 2222) to the SSH port (22) on your...
-permalink: posts/{{ title | slug }}/index.html
-tags:
-- arch
-- bash
-- firewall
-- kvm
-- linux
-categories:
-- networking
----
-
 ## Method 1: Port Forwarding (The "Workaround")
 
 If your VM is behind NAT (IP addresses like `10.0.2.15`), use Port Forwarding. This maps a port on your host (e.g., 2222) to the SSH port (22) on your VM.

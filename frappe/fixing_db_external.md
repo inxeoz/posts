@@ -1,18 +1,3 @@
----
-title: Fixing ERPNext / Frappe Error
-date: '2026-01-27'
-description: '* **OS**: RHEL (private / offline)'
-permalink: posts/{{ title | slug }}/index.html
-tags:
-- bash
-- database
-- docker
-- json
-- mysql
-categories:
-- frappe
----
-
 # Fixing ERPNext / Frappe Error
 
 ## `pymysql.err.OperationalError: (1045) Access denied for user`

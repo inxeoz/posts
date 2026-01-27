@@ -1,19 +1,3 @@
----
-title: "\U0001F433 Run RHEL 9 in Docker (Offline-Friendly)"
-date: '2026-01-27'
-description: '**Goal:** Use RHEL 9 in Docker, save packages to your computer, and
-  install them offline.'
-permalink: posts/{{ title | slug }}/index.html
-tags:
-- bash
-- docker
-- rest
-- script
-categories:
-- rhel
----
-
-
 # 🐳 Run RHEL 9 in Docker (Offline-Friendly)  
   
 **Goal:** Use RHEL 9 in Docker, save packages to your computer, and install them offline.  

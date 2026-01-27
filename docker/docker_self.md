@@ -1,16 +1,3 @@
----
-title: Docker Self
-date: '2026-01-27'
-description: Advanced Docker system management
-permalink: posts/{{ title | slug }}/index.html
-tags:
-- docker
-- system
-- management
-categories:
-- docker
----
-
 # Mastering Docker: Building, Managing, and Maintaining Your Own Systems
 
 ---
