@@ -1,29 +1,9 @@
-1.run git command "git log -1 --format="%ad" -- filename " to find updated date for that file
-1.1 find all the updated dates for all posts/content (.md files)
+YAML front matter headers have been removed from all markdown files.
 
-2. if md file missing basic header section then add header section 
+All markdown content now starts directly with the main heading (# Title).
 
-```
----
-title: file_name_or_concluded_title_from_content
-date: recent_updated_date
-description: infer from content
-permalink: posts/{{ title | slug }}/index.html
-tags: [tag1, tag2, tag2] 
-categories: cat_name
----
-```
-3. infer tags, description , title from content md file for which details will being update
+The process_md.py script is no longer used as headers have been removed.
+If you need to restore headers in the future, you can use process_md.py.
 
-4. if md file has header section then update date to update_date
-
-5. if header missing category value then add (infer from content)
-
-6. use max 12 character for category name
-
-7. use parent folder name as category name of markdown content
-
-8. there should not be duplicate header
-
-9. number of tag(tags) should be less then equal to 5
+To remove headers from new markdown files, use remove_headers.py script.
 
