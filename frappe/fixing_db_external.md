@@ -9,14 +9,9 @@ tags:
 - docker
 - json
 - mysql
-- networking
-- rest
-- script
-- ssh
 categories:
 - frappe
 ---
-
 
 # Fixing ERPNext / Frappe Error
 

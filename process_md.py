@@ -146,6 +146,10 @@ def infer_metadata_from_content(content, filepath):
 
     tags_list = sorted(list(tags))
 
+    # Limit to maximum 5 tags (point 9)
+    if len(tags_list) > 5:
+        tags_list = tags_list[:5]
+
     return title, description, tags_list, categories
 
 
@@ -349,6 +353,12 @@ def process_markdown_file(filepath):
                     new_cats.append(cat)
             if updated:
                 existing_header["categories"] = new_cats
+
+        # Limit existing tags to maximum 5 (point 9)
+        existing_tags = existing_header.get("tags")
+        if existing_tags and len(existing_tags) > 5:
+            existing_header["tags"] = existing_tags[:5]
+            updated = True
 
         if updated:
             # Recreate header with updated values

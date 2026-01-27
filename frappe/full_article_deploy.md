@@ -10,20 +10,9 @@ tags:
 - bash
 - database
 - docker
-- firewall
-- mysql
-- networking
-- nginx
-- proxy
-- redis
-- rest
-- script
-- ssh
-- yaml
 categories:
 - frappe
 ---
-
 
 # 🚀 Deploying ERPNext (Frappe) with Docker in an Offline / Air-Gapped Environment
 

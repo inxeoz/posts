@@ -10,14 +10,9 @@ tags:
 - docker
 - networking
 - nginx
-- redis
-- rest
-- script
-- yaml
 categories:
 - frappe
 ---
-
 
 # Running Frappe / ERPNext Docker Deployments Fully Offline
 

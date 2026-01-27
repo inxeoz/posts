@@ -10,14 +10,9 @@ tags:
 - firewall
 - kvm
 - linux
-- script
-- ssh
-- ubuntu
-- virtualization
 categories:
 - networking
 ---
-
 
 ## Method 1: Port Forwarding (The "Workaround")
 

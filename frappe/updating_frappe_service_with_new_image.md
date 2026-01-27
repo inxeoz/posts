@@ -11,16 +11,9 @@ tags:
 - database
 - docker
 - json
-- proxy
-- redis
-- rest
-- restore
-- script
-- yaml
 categories:
 - frappe
 ---
-
 
 # 📘 How to Build, Ship, and Deploy a New Frappe Image with Updated Custom Apps (Without Affecting Existing Sites)
 

@@ -10,16 +10,9 @@ tags:
 - backup
 - bash
 - database
-- docker
-- rest
-- restore
-- script
-- ssh
-- yaml
 categories:
 - frappe
 ---
-
 
 # CI/CD for Frappe Bench using Jenkins (Offline / Air-Gapped Setup)
 

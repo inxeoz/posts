@@ -9,11 +9,9 @@ tags:
 - firewall
 - rest
 - script
-- vpn
 categories:
 - networking
 ---
-
 
 # 📌 Cloudflare WARP (`warp-cli`) Split-Tunneling — Key Notes
 

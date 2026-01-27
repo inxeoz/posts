@@ -11,13 +11,9 @@ tags:
 - json
 - nginx
 - redis
-- rest
-- script
-- yaml
 categories:
 - frappe
 ---
-
 
 # 🟢 Verifying Offline Frappe/ERPNext Is Working (and Fixing Frontend Issues)
 

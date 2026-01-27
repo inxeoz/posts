@@ -9,13 +9,9 @@ tags:
 - bash
 - database
 - json
-- rest
-- restore
-- script
 categories:
 - frappe
 ---
-
 
 # 📘 Complete Guide: Full Backup & Restore in Frappe / ERPNext (Production-Ready)
 
