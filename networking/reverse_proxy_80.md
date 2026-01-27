@@ -1,10 +1,17 @@
 ---
 title: Multi Reverse Proxy Architecture on RHEL
-date: 2026-01-20
-description: NGINX to Traefik to Frappe multi reverse proxy setup for VPN-only hostname-based routing
+date: '2026-01-23'
+description: NGINX to Traefik to Frappe multi reverse proxy setup for VPN-only hostname-based
+  routing
 permalink: posts/{{ title | slug }}/index.html
-tags: [nginx, traefik, frappe, rhel, reverse-proxy]
-categories: ['networking']
+tags:
+- nginx
+- traefik
+- frappe
+- rhel
+- reverse-proxy
+categories:
+- networking
 ---
 
 # Multi Reverse Proxy Architecture on RHEL

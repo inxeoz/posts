@@ -1,10 +1,15 @@
 ---
 title: Docker Frappe
-date: 2026-01-20
+date: '2026-01-23'
 description: Frappe Docker troubleshooting and backup strategies
 permalink: posts/{{ title | slug }}/index.html
-tags: [docker, frappe, troubleshooting, backup]
-categories: ['docker']
+tags:
+- docker
+- frappe
+- troubleshooting
+- backup
+categories:
+- docker
 ---
 
 # Fixing Common Frappe Docker Errors, Backing Up, and Restoring Databases

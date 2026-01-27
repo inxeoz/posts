@@ -1,10 +1,14 @@
 ---
 title: Learn Python By Projects
-date: 2026-01-20
+date: '2026-01-23'
 description: Learn Python through hands-on projects from beginner to advanced
 permalink: posts/{{ title | slug }}/index.html
-tags: [python, learning, projects]
-categories: ['python']
+tags:
+- python
+- learning
+- projects
+categories:
+- python
 ---
 
 # ✅ **LEVEL 0 — ABSOLUTE BEGINNER (Basics)**

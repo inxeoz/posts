@@ -1,3 +1,26 @@
+---
+title: "\U0001F4D8 How to Build, Ship, and Deploy a New Frappe Image with Updated\
+  \ Custom Apps (Without Affecting Existing Sites)"
+date: '2026-01-23'
+description: 'This guide explains how to **add or update custom apps (e.g. ERPNext)**
+  in a Frappe Docker setup by:'
+permalink: posts/{{ title | slug }}/index.html
+tags:
+- arch
+- bash
+- database
+- docker
+- json
+- proxy
+- redis
+- rest
+- restore
+- script
+- yaml
+categories:
+- frappe
+---
+
 
 
 ---

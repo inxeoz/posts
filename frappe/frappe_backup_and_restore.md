@@ -1,3 +1,21 @@
+---
+title: "\U0001F4D8 Complete Guide: Full Backup & Restore in Frappe / ERPNext (Production-Ready)"
+date: '2026-01-23'
+description: 'This article explains:'
+permalink: posts/{{ title | slug }}/index.html
+tags:
+- automation
+- backup
+- bash
+- database
+- json
+- rest
+- restore
+- script
+categories:
+- frappe
+---
+
 
 
 ---

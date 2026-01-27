@@ -1,12 +1,15 @@
 ---
 title: Redis Setup
-date: 2026-01-20
+date: '2026-01-23'
 description: Redis troubleshooting for Frappe
 permalink: posts/{{ title | slug }}/index.html
-tags: [redis, frappe, troubleshooting]
-categories: ['database']
+tags:
+- redis
+- frappe
+- troubleshooting
+categories:
+- database
 ---
-
 
 # How to Fix Redis Connection Errors in Frappe / ERPNext
 

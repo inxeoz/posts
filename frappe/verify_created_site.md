@@ -1,3 +1,23 @@
+---
+title: "\U0001F7E2 Verifying Offline Frappe/ERPNext Is Working (and Fixing Frontend\
+  \ Issues)"
+date: '2026-01-23'
+description: After loading Docker images from a `.tar` file and starting services
+  with Docker Compose **without internet**, the final and most common hurdle is get...
+permalink: posts/{{ title | slug }}/index.html
+tags:
+- bash
+- docker
+- json
+- nginx
+- redis
+- rest
+- script
+- yaml
+categories:
+- frappe
+---
+
 
 
 ---

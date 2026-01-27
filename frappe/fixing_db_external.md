@@ -1,3 +1,22 @@
+---
+title: Fixing ERPNext / Frappe Error
+date: '2026-01-23'
+description: '* **OS**: RHEL (private / offline)'
+permalink: posts/{{ title | slug }}/index.html
+tags:
+- bash
+- database
+- docker
+- json
+- mysql
+- networking
+- rest
+- script
+- ssh
+categories:
+- frappe
+---
+
 
 
 ---

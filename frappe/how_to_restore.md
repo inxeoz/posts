@@ -1,10 +1,14 @@
 ---
 title: How To Restore
-date: 2026-01-20
+date: '2026-01-23'
 description: Complete Frappe database restoration guide
 permalink: posts/{{ title | slug }}/index.html
-tags: [frappe, database, restoration]
-categories: ['frappe']
+tags:
+- frappe
+- database
+- restoration
+categories:
+- frappe
 ---
 
 # How to Restore frappe_db_backup_utf8.sql

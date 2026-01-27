@@ -1,12 +1,16 @@
 ---
 title: React Native
-date: 2026-01-20
+date: '2026-01-23'
 description: How to run React Native on Arch Linux and fix common errors
 permalink: posts/{{ title | slug }}/index.html
-tags: [react-native, android, mobile, arch-linux]
-categories: ['react-native']
+tags:
+- react-native
+- android
+- mobile
+- arch-linux
+categories:
+- react-native
 ---
-
 
 # 🐧 **How to Run React Native on Arch Linux (and Fix Common Errors)**
 

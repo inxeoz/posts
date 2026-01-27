@@ -1,10 +1,17 @@
 ---
 title: Running Split VPNs on Linux
-date: 2026-01-20
-description: Routing specific traffic via MotionPro ArrayVPN while keeping Cloudflare WARP enabled
+date: '2026-01-23'
+description: Routing specific traffic via MotionPro ArrayVPN while keeping Cloudflare
+  WARP enabled
 permalink: posts/{{ title | slug }}/index.html
-tags: [vpn, linux, networking, motionpro, cloudflare-warp]
-categories: ['networking']
+tags:
+- vpn
+- linux
+- networking
+- motionpro
+- cloudflare-warp
+categories:
+- networking
 ---
 
 # Running Split VPNs on Linux

@@ -1,10 +1,17 @@
 ---
 title: Complete GitHub SSH Setup Guide for Linux Developers
-date: 2026-01-09
-description: SSH keys provide secure, passwordless authentication to GitHub repositories with complete setup guide
+date: '2026-01-23'
+description: SSH keys provide secure, passwordless authentication to GitHub repositories
+  with complete setup guide
 permalink: posts/{{ title | slug }}/index.html
-tags: [ssh, github, linux, security, authentication]
-categories: ['networking']
+tags:
+- ssh
+- github
+- linux
+- security
+- authentication
+categories:
+- networking
 ---
 
 # Complete GitHub SSH Setup Guide for Linux Developers

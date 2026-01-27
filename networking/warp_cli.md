@@ -1,3 +1,19 @@
+---
+title: "\U0001F4CC Cloudflare WARP (`warp-cli`) Split-Tunneling \u2014 Key Notes"
+date: '2026-01-23'
+description: '* Your `warp-cli` version:'
+permalink: posts/{{ title | slug }}/index.html
+tags:
+- bash
+- cloudflare
+- firewall
+- rest
+- script
+- vpn
+categories:
+- networking
+---
+
 
 ---
 title: Cloudflare WARP CLI Split-Tunneling Guide

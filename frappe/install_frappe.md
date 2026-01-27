@@ -1,14 +1,17 @@
 ---
 title: How to Install Frappe Bench on Arch Linux
-date: 2026-01-20
-description: Complete guide for installing Frappe Bench on Arch Linux with MariaDB and Valkey
+date: '2026-01-23'
+description: Complete guide for installing Frappe Bench on Arch Linux with MariaDB
+  and Valkey
 permalink: posts/{{ title | slug }}/index.html
-tags: [frappe, arch-linux, installation, bench]
-categories: ['frappe']
+tags:
+- frappe
+- arch-linux
+- installation
+- bench
+categories:
+- frappe
 ---
-
-
-
 
 # How to Install Frappe Bench on Arch Linux
 

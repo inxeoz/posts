@@ -1,10 +1,16 @@
 ---
 title: Creating a New MariaDB Container for a Frappe Site
-date: 2026-01-20
-description: Guide for attaching a new Frappe site to a separate MariaDB container with DB isolation
+date: '2026-01-23'
+description: Guide for attaching a new Frappe site to a separate MariaDB container
+  with DB isolation
 permalink: posts/{{ title | slug }}/index.html
-tags: [frappe, mariadb, docker, database]
-categories: ['frappe']
+tags:
+- frappe
+- mariadb
+- docker
+- database
+categories:
+- frappe
 ---
 
 # 📘 Creating a New MariaDB Container for a Frappe Site
